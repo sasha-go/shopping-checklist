@@ -19,7 +19,7 @@ function checkedItem() {
     });
 }
 
-// Permanently remove items from the list
+// Permanently remove items from the list. Use 'this' in the function to remove the list item
 function deleteItem() {
     $('.shopping-list').on('click', '.shopping-item-delete', function(e) {
         e.preventDefault();
